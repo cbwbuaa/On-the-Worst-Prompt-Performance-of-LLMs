@@ -29,7 +29,7 @@ Here's a quick guide on how to use this repository:
 
 <img width="709" alt="image" src="https://github.com/user-attachments/assets/b1be8ee6-171d-4c7c-be40-0350ac5ad75b">
 
-## Key Findings
+## 📜 Key Findings
 1. There is a significant gap between the worst performance (lower bound) and best performance
 (upper bound) for all models.
 2. While scaling up models enhances their ability to follow instructions, it does not correspondingly
