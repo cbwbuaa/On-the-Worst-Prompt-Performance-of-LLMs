@@ -1,6 +1,6 @@
 # On-the-Worst-Prompt-Performance-of-LLMs
-![NeurIPS 2024](https://neurips.cc/Conferences/2024/Media/neurips2024-logo.svg)  
-**Accepted at NeurIPS 2024 (Poster Presentation)**
+
+**This paper is accepted at NeurIPS 2024 (Poster Presentation)**
 
 ## Introduction
 We introduce a new benchmark, **RobustAlpacaEval**, that encompasses semantically equivalent queries of diverse real-world tasks, offering a more holistic assessment compared to existing benchmarks that focus solely on rephrasing task-level instructions.
