@@ -1,4 +1,4 @@
-# [NeurIPS 2024] On the Worst Prompt Performance of LLMs
+# RobustAlpacaEval
 
 This is the repository for our paper [On the Worst Prompt Performance of Large Language
 Models](https://arxiv.org/abs/2406.10248).
