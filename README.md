@@ -38,6 +38,7 @@ The dataset is saved as a list of dicts, each of which represents a data instanc
 }
 ```
 ```instruction```: the original query from TinyAlpaceEval.
+
 ```paraphrases```: a list of paraphrases for the query (```instruction```).
 
 
