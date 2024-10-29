@@ -43,13 +43,18 @@ The dataset is saved as a list of dicts, each of which represents a data instanc
 
 
 
-## 📊 Main Results
+## 📊 Evaluation
+In line with common practice, we use **weighted win-rate** as our performance metric; It uses an **evaluator** to compare the output of the target model against that of a **reference model**, and estimates the winning probability of the target model. Specifically, we employ the **gpt4_turbo** model as the evaluator and the reference model. We term the model's performance on the original prompt as ```original performance```. We also report the ```worst```, ```best```, ```average performances``` across all eleven prompts as well as the ```standard deviation```. For each metric, we average the results across all cases.
+
+To evaluate your own model, get model predictions for each of the paraphrases as well as the original query, and follow the instructions in [AlpacaEval](https://github.com/tatsu-lab/alpaca_eval) to obtain the weighted win-rate.
+
+### Main Results
 
 <img width="709" alt="image" src="https://github.com/user-attachments/assets/b1be8ee6-171d-4c7c-be40-0350ac5ad75b">
 
 
 
-## 📜 Key Findings
+### Key Findings
 1. There is a significant gap between the worst performance (lower bound) and best performance
 (upper bound) for all models.
 2. While scaling up models enhances their ability to follow instructions, it does not correspondingly
