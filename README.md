@@ -1,4 +1,4 @@
-# On-the-Worst-Prompt-Performance-of-LLMs
+# [NeurIPS 2024] On the Worst Prompt Performance of LLMs
 
 This is the repository for our paper [On the Worst Prompt Performance of Large Language
 Models](https://arxiv.org/abs/2406.10248).
@@ -19,7 +19,7 @@ The performance of large language models (LLMs) is acutely sensitive to the phra
 ## 📁 Dataset
 ### Data Format
 
-## Main Results
+## 📊 Main Results
 
 <img width="709" alt="image" src="https://github.com/user-attachments/assets/b1be8ee6-171d-4c7c-be40-0350ac5ad75b">
 
