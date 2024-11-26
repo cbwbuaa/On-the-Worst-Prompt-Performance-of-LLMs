@@ -46,7 +46,7 @@ The dataset is saved as a list of dicts, each of which represents a data instanc
 ## 📊 Evaluation
 In line with common practice, we use **weighted win-rate** as our performance metric; It uses an **evaluator** to compare the output of the target model against that of a **reference model**, and estimates the winning probability of the target model. Specifically, we employ the **gpt4_turbo** model as the evaluator and the reference model. We term the model's performance on the original prompt as ```original performance```. We also report the ```worst```, ```best```, ```average performances``` across all eleven prompts as well as the ```standard deviation```. For each metric, we average the results across all cases.
 
-To evaluate your own model, get model predictions for each of the paraphrases as well as the original query, and follow the instructions in [AlpacaEval](https://github.com/tatsu-lab/alpaca_eval) to obtain the weighted win-rate.
+To evaluate your own model, get model predictions for each of the paraphrases as well as the original query, and follow the instructions in [AlpacaEval](https://github.com/tatsu-lab/alpaca_eval) to obtain the weighted win-rate or define your own metrics.
 
 ### Main Results
 
